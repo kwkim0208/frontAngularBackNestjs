@@ -4,3 +4,4 @@ backend 폴더 아래에 main.ts   await app.listen(포트번호) 수정하여 �
 cd frontend 이동후 ng serve
 cd backend 이동후 npm run start
 단 윈도우나 리눅스 기준으로 터미널 2개가 필요해요
+
