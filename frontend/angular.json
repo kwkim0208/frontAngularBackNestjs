@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": "a2feb1b7-7a20-479e-81e7-cee33a6ddae0"
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -67,7 +70,7 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "port": 400
+            "port": 4000
           },
           "configurations": {
             "production": {
