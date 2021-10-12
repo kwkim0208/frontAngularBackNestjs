@@ -1,7 +1,11 @@
 front 폴더 아래 angular.json 파일에서 port를 찾은후 원하는 포트번호로 수정 하시면 됩니다.
 backend 폴더 아래에 main.ts   await app.listen(포트번호) 수정하여 두개다 같은 포트 수정 하시면 됩니다.
 실행방법
-cd frontend 이동후 ng serve
-cd backend 이동후 npm run start
-단 윈도우나 리눅스 기준으로 터미널 2개가 필요해요
+터미널(cmd)에서 cd frontend
+npm install
+ng serve
+터미널(cmd)에서 cd backend
+npm install
+ npm run start
+단 윈도우나 리눅스 기준으로 터미널(cmd) 2개가 필요해요
 
